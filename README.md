@@ -20,12 +20,12 @@ Manual filtering delays response time and reduces overall efficiency.
 
 This workflow automates the lead intake and qualification process by:
 
-- Capturing lead data through a form
-- Storing submissions in Google Sheets
-- Filtering personal email domains (Gmail, Yahoo, Outlook)
-- Classifying leads based on company size
-- Sending automated qualification emails
-- Updating lead status (Hot / Mid / Cold)
+- Capturing lead data through a form  
+- Storing submissions in Google Sheets  
+- Filtering personal email domains (Gmail, Yahoo, Outlook)  
+- Classifying leads based on company size  
+- Sending automated qualification emails  
+- Updating lead status (Hot / Mid / Cold)  
 
 ---
 
@@ -41,18 +41,29 @@ The routing logic is implemented using conditional nodes (If / Switch) within n8
 
 ## Tech Stack
 
-- n8n
-- Google Sheets API
-- Gmail API
-- Conditional Logic (If / Switch)
-- Workflow Automation
+- n8n  
+- Google Sheets API  
+- Gmail API  
+- Conditional Logic (If / Switch)  
+- Workflow Automation  
 
 ---
 
 ## Business Impact
 
 This system reduces manual lead filtering, improves response time, and demonstrates how workflow automation can support scalable sales operations.
+
+---
+
+## How to Use
+
+1. Import the `workflow.json` file into n8n.  
+2. Connect your Google Sheets and Gmail credentials.  
+3. Adjust qualification thresholds if needed.  
+4. Activate the workflow.
+
 ---
 
 ## Author
+
 Salma Alahmad
