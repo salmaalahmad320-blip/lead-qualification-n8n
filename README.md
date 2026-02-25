@@ -56,7 +56,3 @@ This system reduces manual lead filtering, improves response time, and demonstra
 
 ## Author
 Salma Alahmad
-
-## Author
-
-Built as part of an auto
